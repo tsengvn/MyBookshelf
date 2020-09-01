@@ -1,6 +1,7 @@
 import React from 'react';
 import {Header, Button, ThemeProvider} from 'react-native-elements';
 import Home from './screen/HomeScreen';
+import Login from './screen/LoginScreen';
 
 const App: React.FC = () => (
   <ThemeProvider>
@@ -10,7 +11,7 @@ const App: React.FC = () => (
       centerComponent={{text: 'MY TITLE', style: {color: '#fff'}}}
       rightComponent={{icon: 'home', color: '#fff'}}
     />
-    <Home />
+    <Login />
   </ThemeProvider>
 );
 
